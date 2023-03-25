@@ -33,4 +33,5 @@ public class Ejercicio1 {
     public void setN(double N) {
         this.N = N;
     }
+
 }
