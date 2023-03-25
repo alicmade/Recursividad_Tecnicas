@@ -21,4 +21,5 @@ public class Main {
         ejercicio2.factorial(num2,div2);
 
     }
+    /* He dejado las dos forma con recursividad y de forma iterativa para ver la diferencia de forma más clara*/
 }

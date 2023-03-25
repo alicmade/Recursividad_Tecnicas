@@ -3,6 +3,7 @@ package Apartado3;
 import java.util.function.*;
 
 public class Ejercicio3 {
+    //metodo con recursividad
     public void hexadecimal (int num){
         if (num>0) {
             int resto = num%16;
@@ -33,25 +34,42 @@ public class Ejercicio3 {
             }
         }
     }
-    /*Function <Integer, String> decimal_a_base = (n) -> {
-        if (n == 0) {
-            return "";
-        } else {
-            return decimal_a_base.apply(n / 16).replaceAll("^0+", "") + "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ".charAt(n % 16);
-        }
-    };
 
-   UnaryOperator<Integer> dividir_por_16 = n -> n%16;
-
-    Integer resultado = dividir_por_16.apply(255);
-
-
-*/
+    //metodo con lambda
      Function<Integer, String> convertir_a_hexadecimal = n -> {
         String hex = Integer.toHexString(n).toUpperCase();
         return hex.replaceAll("^0+", "");
     };
 
+
+    //metodo con lambda para pasar a binario en caso de que lo quisieramos camnbiar de
+    //base habría q cambiar el 2 por la base que quisieramos
+    Function<Integer, String> convertir_a_base = n -> {
+        String hex = Integer.toString(n, 2);
+        return hex.replaceAll("^0+", "");
+    };
+
+    //metodo con lambda genralizado para cualquier base
+    int B = 3;
+    Function<Integer, String> convertir_a_base2 = n -> {
+        int base = B;
+        String simbolos = "0123456789"; //según el enunciado (B < 10)
+
+        StringBuilder sb = new StringBuilder();
+        while (n > 0) {
+            sb.append(simbolos.charAt(n % base));
+            n /= base;
+        }
+
+        return sb.reverse().toString();
+    };
+
+
+    public void setB(int b) {
+        B = b;
+    }
+
+    //Imprimir el resultado de la función anterior
     Consumer<String> imprimir = texto -> System.out.println(texto);
 
 

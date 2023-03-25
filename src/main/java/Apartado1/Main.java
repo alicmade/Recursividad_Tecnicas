@@ -9,15 +9,16 @@ public class Main {
     Ejercicio1 e1 = new Ejercicio1();
     double min = 0;
     double max = 2;
-    double root = e1.bisect(min, max);
+    double root = e1.bisectOtraforma(min, max);
     System.out.println("La raíz cuadrada de " + e1.getN() + " es " + root);
 
     // Ahora probamos con otro valor de N
         System.out.println("Ahora calculamos la raíz de valor que introduzacas: ");
         double numero = sc.nextDouble();
          e1.setN(numero);
-            root = e1.bisect(min, max);
+            root = e1.bisectOtraforma(min, max);
             System.out.println("La raíz cuadrada de " + e1.getN() + " es " + root);
-
     }
+    /* He dejado las dos forma con recursividad y de forma iterativa para ver la diferencia de forma más clara*/
+
 }

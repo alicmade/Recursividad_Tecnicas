@@ -46,5 +46,6 @@ public class Ejercicio1 {
     public void setN(double N) {
         this.N = N;
     }
+    /* He dejado las dos forma con recursividad y de forma iterativa para ver la diferencia de forma más clara*/
 
 }
