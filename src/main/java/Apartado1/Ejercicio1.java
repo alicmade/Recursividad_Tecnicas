@@ -26,6 +26,19 @@ public class Ejercicio1 {
         }
     }
 
+    double bisectOtraforma (double min, double max) {
+        double med = (min+max)/2;
+        while (max-min >= PREC) {
+            if (f(min)*f(med) < 0) {
+                max = med;
+            } else {
+                min = med;
+            }
+            med = (min+max)/2;
+        }
+        return med;
+    }
+
     public double getN() {
         return N;
     }

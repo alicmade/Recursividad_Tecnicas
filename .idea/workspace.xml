@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a388a83d-e6fc-4f62-b52a-d539dc34e009" name="Changes" comment="Ejericio2 Terminado">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Apartado3/Ejercicio3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Apartado3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Apartado2/Ejercicio2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Apartado2/Ejercicio2_2.java" afterDir="false" />
+    <list default="true" id="a388a83d-e6fc-4f62-b52a-d539dc34e009" name="Changes" comment="Ejericio3 Terminado">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Apartado1/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Apartado1/Ejercicio1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679748137135</updated>
-      <workItem from="1679748139491" duration="9218000" />
+      <workItem from="1679748139491" duration="9430000" />
     </task>
     <task id="LOCAL-00001" summary="Ejericio1">
       <created>1679750292987</created>
@@ -91,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679773471497</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ejericio3 Terminado">
+      <created>1679777346044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679777346044</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ejericio1" />
     <MESSAGE value="Ejericio2 Terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejericio2 Terminado" />
+    <MESSAGE value="Ejericio3 Terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejericio3 Terminado" />
   </component>
 </project>
