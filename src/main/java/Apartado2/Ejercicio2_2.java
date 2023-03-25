@@ -12,17 +12,19 @@ public class Ejercicio2_2 {
         while (div <= num){
             if ((num%div) == 0) {
                 dividendos2.add(div);
-                num = miMetodoLambda.applyAsInt(num, div);
+               // num = miMetodoLambda.applyAsInt(num, div);
+                //f(num/div,div);
             } else {
                 div +=1;
             }
 
         }
-        // método lambda imprimir los resultados
+        // metodo lambda para imprimir el array
         dividendos2.forEach(divisor2 -> System.out.println(divisor2));
     }
     // método lambda para dividir
     IntBinaryOperator miMetodoLambda = (int num, int div) -> num / div;
+
 
 
 }
