@@ -1,6 +1,12 @@
 package Apartado1;
 
 public class Ejercicio1 {
+    //a) ¿Qué calcula la llamada a la función recursiva bisect(0,N)? Si cambiamos el
+    //valor de N, ¿qué estaríamos calculando? ¿Y si cambiásemos la función f(x)?
+    //Calcula la raíz cuadrada, a través de método bisectriz, que se basa en ir dividiendo los intervalos a la mitad hasta verificar en que intervalo se cambia
+    //de signo y ahi se encontrará la raíz. Si cambiaramos el valor de N a tres, por ejemplo, estaríamos calculado la raíz de tres. Si cambiaramos f(x) la funcion
+    //bisect() seguirá buscando la raíz cuadrada. Pero dará error si la función f(x) no es continua.
+
     //implementamos un algoritmo iterativo equivalente.
     double N = 2;
      final double PREC = 1e-6;
