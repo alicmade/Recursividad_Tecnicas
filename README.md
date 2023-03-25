@@ -17,6 +17,7 @@ Primero comprueba que sea mayor que 1, ya que sino no tendría números primos. 
 encontrar un número que lo haga, utilizanco la recursividad y llamando a la función otra vez. Cuando lo encuentra lo divide y vuelve a llamar a la función 
 para mostrar todos los números. 
 Por ello, el nombre que debería tener la función es factorización. 
+
 b) Implemente un algoritmo iterativo y uno implementado mediante expresiones lambda
 equivalentes.
 
