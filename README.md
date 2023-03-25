@@ -10,6 +10,7 @@ b) Implemente un algoritmo iterativo equivalente.
 Está en el ejericio1 
 
 2. Dado el siguiente algoritmo recursivo:
+
 a) Dado un número cualquiera x, ¿qué nos muestra por pantalla la llamada a la función
 recursiva f(x,2)? ¿Cuál sería un nombre más adecuado para la función f?
 Se va mostrando por la pantalla todos los divisores de parámetro x hasta que se reduce a un número que solo se puedoe dividir por si mismo (primo), está factorizando.
