@@ -21,5 +21,13 @@ public class Main {
         ejercicio2.factorial(num2,div2);
 
     }
+    /*a) Dado un número cualquiera x, ¿qué nos muestra por pantalla la llamada a la función recursiva f(x,2)?
+    ¿Cuál sería un nombre más adecuado para la función f? Se va mostrando por la pantalla todos los divisores de parámetro x hasta
+    que se reduce a un número que solo se puedoe dividir por si mismo (primo), está factorizando. Primero comprueba que sea mayor que 1,
+    ya que sino no tendría números primos. comprueba si el divisor daría un resultado igual a 0 y sino lo aumenta 1 hasta encontrar un
+    número que lo haga, utilizanco la recursividad y llamando a la función otra vez. Cuando lo encuentra lo divide y vuelve a llamar a
+    la función para mostrar todos los números. Por ello, el nombre que debería tener la función es factorización.
+
+     */
     /* He dejado las dos forma con recursividad y de forma iterativa para ver la diferencia de forma más clara*/
 }
